@@ -1,0 +1,8 @@
+#!/usr/bin/pwsh-preview -NoProfile
+
+docker `
+    build `
+    -f Dockerfile `
+    . `
+    -t `
+    dotnuttx/generate-bin-esp32c3

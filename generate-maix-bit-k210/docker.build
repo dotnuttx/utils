@@ -1,0 +1,8 @@
+#!/usr/bin/pwsh-preview -NoProfile
+
+docker `
+    build `
+    -f Dockerfile `
+    . `
+    -t `
+    dotnuttx/generate-maix-bit-k210

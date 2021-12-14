@@ -1,0 +1,3 @@
+#!/usr/bin/pwsh-preview -NoProfile
+
+docker run --rm -it -v bin/Debug:/nf dotnuttx/generate-bin-esp32c3
